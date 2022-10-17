@@ -22,7 +22,7 @@
 Проверить, чтобы все работало без ошибок в консоли */
 
 'use strict';
-const numberOfFilms = +prompt('Сколько фильмов вы уже посмотрели?', '0')
+const numberOfFilms = +prompt('Сколько фильмов вы уже посмотрели?', '0');
 //const numberOfFilms = +prompt('Сколько фильмов вы уже посмотрели?','');
 //const numberOfFilms = +prompt('Сколько фильмов вы уже посмотрели?', '');
 const personalMovieDB = {
