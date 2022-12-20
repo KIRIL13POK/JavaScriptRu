@@ -25,10 +25,18 @@ function copyObj(mainObj) {
 };
 
 
+
+
 const newPersonalPlanPeter = copyObj(personalPlanPeter);
 newPersonalPlanPeter.age = 30;
+ console.log(Object.assign(personalPlanPeter, newPersonalPlanPeter));
+
+
+
 console.log(newPersonalPlanPeter);
 console.log(personalPlanPeter);
+
+
 
 
 for (let key in personalPlanPeter) {
@@ -43,5 +51,6 @@ for (let key in personalPlanPeter) {
 }
 let amountKeys = Object.keys(personalPlanPeter);
 console.log(amountKeys.length);
+
 
 
