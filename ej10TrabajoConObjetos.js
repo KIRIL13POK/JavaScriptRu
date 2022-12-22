@@ -45,7 +45,7 @@ for (let key in personalPlanPeter) {
             console.log(`La llave ${key} tiene valor ${personalPlanPeter[key][i]}`)
         }
     } else {
-        console.log(`La llave ${key} tiene valor ${personalPlanPeter[key]}`);
+        console.log(`La  11111 llave ${key} tiene valor ${personalPlanPeter[key]}`);
 
     }
 }
