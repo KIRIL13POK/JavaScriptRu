@@ -77,13 +77,11 @@ function inversa(frase) {
 };
 //inversa(frase);
 //Ejercicio #5
-/*Crear una función sumaArreglo() que tome como parámetro un arreglo de números, retornar la longitud del arreglo + la suma de todos los números del arreglo. 
+/*Crear una función sumaArreglo() que tome como parámetro un arreglo de números, retornar la longitud del arreglo + la suma de todos los números del arreglo. */
 
 
 //Ejercicio #6
-Crear una función multiplicarArreglo() que tome como parámetro un arreglo de números, retornar la multiplicación del número y el número mayor del arreglo.
-1)La Math.min.max(...arreglo); Math.max(...arreglo);
-*/
+
 const numeros = [1, 2, 3, 4, 5]
 const numeros2 = [12, 34, 45, 65, 2324]
 function multiplicarArreglo(mainArreglo) {
@@ -94,9 +92,49 @@ function multiplicarArreglo(mainArreglo) {
     let resultadoFinal = numMayor * numMenor;
     console.log(`La multiplicación del número menor y el número mayor del arreglo es : ${resultadoFinal}.`)
 };
-multiplicarArreglo(numeros);
-multiplicarArreglo(numeros2);
+//multiplicarArreglo(numeros);
+//multiplicarArreglo(numeros2);
 
+//Ejercicio #7  1)Array.prototype.concat()
+
+ 
+const elN1 = [1, 2, 3, 4, 43, 32, 21];
+const elN2 = [23, 34,5, 4, 3,];
+const elN3 = [3, 13, 31];
+
+
+function booleanoArray(arr1, arr2){
+    let union = arr1.concat(arr2);
+    console.log(`El resultado de la union es: ${union}.`);
+    console.log(union);
+    let respuesta;
+    union.length >= 10 ? respuesta = true : respuesta = false;
+    console.log(`La longitud de el nuevo arreglo es mayor o igual a 10.---${respuesta}.`)
+
+};
+//booleanoArray(elN1, elN2);
+//booleanoArray(elN2, elN3);
+//booleanoArray(elN1, elN3);
+
+  //*Ejercicio #8 
+  /*1)map() El método map() crea un nuevo array con los resultados de la llamada a la función indicada aplicados a cada uno de sus elementos*/
+  
+function funcionArray(arr1, arr2){
+    let arrGrande = arr1.concat(arr2);
+    console.log(arrGrande);
+    for(let i = 0; i < arrGrande.length; i++){
+        console.log( arrGrande[i]*2);
+    }
+     arrGrande = arrGrande.map((elemento) => {
+        return elemento * 2
+    });
+    console.log("El resultado es : " + arrGrande);
+  
+
+};
+funcionArray(elN1, elN2);
+funcionArray(elN1, elN3);
+funcionArray(elN3, elN2);
 
 
 
