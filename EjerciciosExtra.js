@@ -19,9 +19,9 @@ Crear una función con el nombre de funcionArray() que tome dos arreglos de núm
 */
 'use strict';
 //Ejercicio #1.
-let n1 = +prompt(`Introduce un numero`);
-let n2 = +prompt(`Introduce un numero`);
-let n3 = +prompt(`Introduce un numero`);
+//let n1 = +prompt(`Introduce un numero`);
+//let n2 = +prompt(`Introduce un numero`);
+//let n3 = +prompt(`Introduce un numero`);
 
 function numeroMayor(n1, n2, n3) {
     if (n1 > n2 && n1 > n3) {
@@ -34,10 +34,10 @@ function numeroMayor(n1, n2, n3) {
         console.log(`Los numeros son iguales.`)
 
 };
-numeroMayor(n1, n2, n3);
+//numeroMayor(n1, n2, n3);
 
 //Ejercicio #2
-let letra = prompt("INTRODUZE UNA LETRA:")
+//let letra = prompt("INTRODUZE UNA LETRA:")
 function esVocal(letra) {
     let resultado;
     if (letra === 'e' || letra === 'y' || letra === 'u' || letra === 'o' || letra === 'a') {
@@ -50,10 +50,10 @@ function esVocal(letra) {
     console.log(`La letra es vocal?---${resultado}---`)
     return resultado;
 };
-esVocal(letra);
+//esVocal(letra);
 // Ejercicio #3
-let num = prompt("Introduce el numero: ")
-let caracter = prompt("Introduce el caracter: ")
+//let num = prompt("Introduce el numero: ")
+//let caracter = prompt("Introduce el caracter: ")
 function generarCaracteres(num, caracter) {
     let resultado = "";
 
@@ -66,20 +66,45 @@ function generarCaracteres(num, caracter) {
     }
     console.log(`---${resultado}---`);
 };
-generarCaracteres(num, caracter);
+//generarCaracteres(num, caracter);
 //Ejercicio #4
 
-let frase = prompt("Introcue una frase:")
+//let frase = prompt("Introcue una frase:")
 function inversa(frase) {
     console.log(frase.split(""));
     let fraseInversa = (frase).toLowerCase().split('').reverse().join('');;
     console.log(`${fraseInversa}`);
 };
-inversa(frase);
+//inversa(frase);
+//Ejercicio #5
+/*Crear una función sumaArreglo() que tome como parámetro un arreglo de números, retornar la longitud del arreglo + la suma de todos los números del arreglo. 
 
 
-   
-    
+//Ejercicio #6
+Crear una función multiplicarArreglo() que tome como parámetro un arreglo de números, retornar la multiplicación del número y el número mayor del arreglo.
+1)La Math.min.max(...arreglo); Math.max(...arreglo);
+*/
+const numeros = [1, 2, 3, 4, 5]
+const numeros2 = [12, 34, 45, 65, 2324]
+function multiplicarArreglo(mainArreglo) {
+    let numMayor = Math.max(...mainArreglo);
+    let numMenor = Math.min(...mainArreglo);
+    console.log(`El numero mayor de arreglo es: ${numMayor}.`)
+    console.log(`El numero menor de arreglo es : ${numMenor}.`)
+    let resultadoFinal = numMayor * numMenor;
+    console.log(`La multiplicación del número menor y el número mayor del arreglo es : ${resultadoFinal}.`)
+};
+multiplicarArreglo(numeros);
+multiplicarArreglo(numeros2);
+
+
+
+
+
+
+
+
+
 
 
 
