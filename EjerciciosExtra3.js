@@ -51,22 +51,22 @@ function numeroPositivoNegativoIgual(num1) {
 Pedir una calificación  de 0 a 10 y mostrar de la siguiente manera: Insuficiente, Suficiente, Bien, Excelente.
 */
 
-//let nota = +prompt("", 0)
+let nota = +prompt("", 0)
 function calificacion(nota) {
-    if (nota == 0 || nota < 5) {
+    if (nota > 0 && nota < 5) {
         console.log("Insuficiente");
-    } else if (nota == 5 || nota < 8) {
+    } else if (nota == 5 ) {
         console.log("Suficiente");
-    } else if (nota == 8 || nota < 10) {
+    } else if (nota > 5 && nota <= 8 ) {
         console.log("Bien");
-    } else if (nota == 10) {
+    } else if (nota > 8 && nota <= 10) {
         console.log("Excelente");
     } else {
         console.log("La nota no es correcta");
     }//
 };
 
-//calificacion(nota);
+calificacion(nota);
 
 /*Ejercicio #5
 Pedir una hora, minuto y segundo y mostrar la hora en el segundo siguiente
