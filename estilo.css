@@ -1,10 +1,14 @@
 
 body {
-    background: blue;
+    background-image:url(../imgenRu/aquiles-héroe-griego-de-la-guerra-troya-va-luchar-contra-troy-ejemplo-generado-por-ordenador-d-con-149071359.jpg);
+    
 
 }
-h1{
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
- 
-  color:forestgreen
+#principal h1 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	text-transform: none;
+	color: red;
+	padding-top: 1em;
+	font-weight: normal;
+	margin-bottom: 20px;
 }
