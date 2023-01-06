@@ -32,10 +32,11 @@ adv.forEach(item => {
 });
 
 //****************************************  2  *****************************************
-const poster = document.querySelector('.promo__bg');
+// const poster = document.querySelector('.promo__bg');
 //Ahora el genero lo sacamos directamente de poster:
-const genre = poster.querySelector('.promo__genre');
+//const genre = poster.querySelector('.promo__genre');
 //Para cambiar texto metodo .textContent():
+const genre = document.querySelector('.promo__bg').querySelector('.promo__genre');
 genre.textContent = 'драма';
 
 //****************************************  3  *****************************************
