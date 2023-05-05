@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>JavaScript</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div id="content">
+    <div class="h1class">
+      <h1>Делегирование событий</h1>
+    </div>
+    <article>
+      <p>
+        Всплытие и перехват событий позволяет реализовать один из самых важных приёмов разработки – <b>делегирование.</b> <br>
+
+        Идея в том, что если у нас есть много элементов, события на которых нужно обрабатывать похожим образом, то
+        вместо того, чтобы назначать обработчик каждому, мы ставим один обработчик на их общего предка. <br>
+
+        Из него можно получить целевой элемент <b>event.target</b>, понять на каком именно потомке произошло событие и
+        обработать его. <br>
+
+      </p>
+    </article>
+
+  </div>
+
+  <div id="first" class="btn-block">
+    <button class="blue some"></button>
+    <button></button>
+    <button></button>
+    <button></button>
+    <button></button>
+    <button></button>
+    <button></button>
+    <button></button>
+  </div>
+
+  <!-- <script src="main.js"></script> -->
+
+
+  <script src="main_2.js"></script>
+  <script src="main.js"></script>
+</body>
+
+</html>

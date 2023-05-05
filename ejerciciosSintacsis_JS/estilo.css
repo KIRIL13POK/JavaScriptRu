@@ -1,0 +1,52 @@
+body {
+	background-image: url(../imgenRu/aquiles-héroe-griego-de-la-guerra-troya-va-luchar-contra-troy-ejemplo-generado-por-ordenador-d-con-149071359.jpg);
+
+
+}
+
+#principal h1 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	text-transform: none;
+	color: rgb(6, 1, 52);
+	padding-top: 1em;
+	font-weight: normal;
+	margin-bottom: 20px;
+}
+
+/*span {
+	display: block;
+	font-family: monospace;
+	white-space: nowrap;
+	border-right: 4px solid;
+	width: 12ch;
+
+	animation: typing 2s steps(12), blink .5s infinite step-end alternate;
+	overflow: hidden
+}
+
+@keyframes typing {
+	from{ width: 0}
+}
+
+@keyframes blink {
+	50% { border-color: transparent; }
+}*/
+
+#principal h1 {
+	display: block;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	white-space: nowrap;
+	border-right: 4px solid;
+	width: 31ch;
+
+	animation: typing 2s steps(31), blink .5s infinite step-end alternate;
+	overflow: hidden
+}
+
+@keyframes typing {
+	from{ width: 0}
+}
+
+@keyframes blink {
+	50% { border-color: transparent; }
+}
