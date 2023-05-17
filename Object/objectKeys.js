@@ -1,16 +1,16 @@
 const primarcas = {
     Guilliman: {
-        capitulo: "Ultramarines",
+        legion: "Ultramarines",
         lider: "Roboute Guilliman",
         armas: "Espada de energía, Bolter",
     },
     Sangunario: {
-        capitulo: "Ángeles Sangrientos",
+        legion: "Ángeles Sangrientos",
         lider: "Comandante Dante",
         armas: "Hoja Sanguinaria, Bolter de asalto",
     },
     Russ: {
-        capitulo: "Cicatrices Blancas",
+        legion: "Cicatrices Blancas",
         lider: "Leman Russ",
         armas: "Hacha de energía, Bolter pesado",
     },
