@@ -1,7 +1,6 @@
 const primarcas = [
     {
         nombre: "Lion El'Jonson",
-        
         legion: "Ángeles Oscuros",
         numeroLegion: "I"
     },

@@ -25,7 +25,7 @@ const primarcas = [
     },
     {
         nombre: "Leman Russ",
-        poder: "Fuerza y ferocidad",
+        
         legion: "Lobos Espaciales",
         numeroLegion: "VI"
     },
@@ -182,6 +182,7 @@ let legionXIV = 'XIV'
 let legionVIII = "VIII"
 let legionIX = 'IX'
 let legionI = 'I'
+let legionVI = 'VI'
 
 getTodosLosDatos(legionXIV)
     .then(datos => console.log(datos))
@@ -201,4 +202,9 @@ getTodosLosDatos(legionVIII)
 
 getTodosLosDatos(legionIX)
     .then(datos => console.log(datos))
-    .catch(err =>  console.log(err))        
+    .catch(err =>  console.log(err))    
+    
+ getTodosLosDatos(legionVI)
+    .then(datos => console.log(datos))
+    .catch(err =>  console.log(err))  
+    
