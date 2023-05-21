@@ -1,3 +1,6 @@
+
+
+
 const datosCiudad = [
     {
       ciudad: 'Nueva York',
@@ -6,7 +9,7 @@ const datosCiudad = [
     },
     {
       ciudad: 'Londres',
-      clima: 'Nublado',
+      
       temperatura: '18°C'
     },
     {
@@ -123,7 +126,8 @@ const getInfoCiudadTotal = async (ciudadInteresada) => {
 }
 
 
-let ciudad1 =  'Berlín';
+let ciudad1 =  prompt('Introduce la ciudad');
+
 
 getInfoCiudadTotal( ciudad1 )
     .then( respuestas => console.log( respuestas ))
@@ -131,3 +135,19 @@ getInfoCiudadTotal( ciudad1 )
 
 
 
+const divResultado = document.querySelector('.resultado')
+const parrafoParaResultado  = document.createElement('p')
+
+parrafoParaResultado.textContent  =
+ getInfoCiudadTotal( ciudad1 )
+    .then( respuestas => {
+        parrafoParaResultado.textContent = respuestas;
+        divResultado.appendChild(parrafoParaResultado);
+
+    })
+    .catch( err => { 
+        parrafoParaResultado.textContent = err;
+        divResultado.appendChild(parrafoParaResultado)
+    }) 
+
+ divResultado.appendChild(parrafoParaResultado)  
