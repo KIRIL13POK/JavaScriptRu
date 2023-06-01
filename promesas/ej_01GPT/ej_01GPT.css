@@ -1,0 +1,20 @@
+/* Estilo para los divs */
+.resultado {
+    margin: 20px auto;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  
+  /* Colores de fondo diferentes para los divs */
+  .resultado:nth-child(odd) {
+    background-color: #f1f1f1;
+  }
+  
+  .resultado:nth-child(even) {
+    background-color: #eaeaea;
+  }
+  
+  /* Bordes de 5 a 15px para los divs */
+  .resultado {
+    border: 5px solid #ccc;
+  }
