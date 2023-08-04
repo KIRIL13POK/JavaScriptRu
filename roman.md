@@ -5,7 +5,7 @@
 
 ## Objetivo:
 
-Busco cambiar de oficio y aprender nuevos oficios que me permitan mejorar mi calidad de vida. Deseo trabajar en el campo de la instalación de placas solares y aplicar mis habilidades técnicas para contribuir al crecimiento sostenible de la empresa. Estoy comprometido a aprender y desarrollarme profesionalmente, aportando dedicación y energía a los proyectos de energía solar para impulsar el éxito de la empresa.
+Busco  aprender nuevos oficios que me permitan mejorar mi calidad de vida. Deseo trabajar en el campo de la instalación de placas solares y aplicar mis habilidades técnicas para contribuir al crecimiento sostenible de la empresa. Estoy comprometido a aprender y desarrollarme profesionalmente, aportando dedicación  a los proyectos de energía solar para impulsar el éxito de la compañía.
 
 ## Educación:
 
