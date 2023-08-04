@@ -1,8 +1,7 @@
-# Roman Pokrovskiy
-
-- Correo electrónico: sd440736@gmail.com
-- Teléfono: 642 51 36 01
-- Dirección postal (opcional)
+- #### Roman Pokrovskiy
+- `sd440736@gmail.com` 
+-  `642 51 36 01`
+- `PLAZA VIRGEN DE LA ESPERANZA 3 PO3 ED`
 
 ## Objetivo:
 
